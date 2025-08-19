@@ -1,0 +1,16 @@
+*{
+    margin:1%;
+}
+
+
+
+h1{
+                text-align: center;
+                width: 50%;
+                color: red;
+                background-color: aqua;
+            }
+            body{
+                color: brown;
+                 background-color:antiquewhite;
+            }

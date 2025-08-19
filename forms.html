@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+   <form action="Post">
+    <label for="username">username</label>
+    <input type="text" name="username" placeholder="enter username">
+    <br><br>
+    <label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br><br>
+<select>
+  <option>India</option>
+  <option>USA</option>
+  <option>UK</option>
+</select>
+
+<textarea rows="4" cols="30">Enter your message here...</textarea>
+<br><br>
+<fieldset>
+  <legend>Personal Info</legend>
+  <label>Name:</label>
+  <input type="text">
+</fieldset>
+<br><br>
+<label for="email">email:</label>
+<input type="email" required>
+<label for="number">number:</label>
+<input type="number" min="1" max="100">
+<label for="text">text:</label>
+<input type="text" pattern="[A-Za-z]+">
+<br><br>
+<input type="radio" name="gender"> Male
+  <input type="radio" name="gender"> Female
+  <br><br>
+  <label for="age">age</label>
+  <input type="number" placeholder="Age">
+  <br><br>
+<button type="button">Click Me</button>
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+   </form>
+</body>
+</html>
